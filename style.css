@@ -53,3 +53,28 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.box{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-color1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#border-color2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+}
